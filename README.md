@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SW-GUIDE
+The ultimate Star Wars guide :D
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+This project is a React application that use the [SWAPI](https://swapi.co/) API as a info provider. It is a motivation to practice creating a React app with a small test battery.
 
-### `yarn start`
+The project was created using the last React version (16.11.0 at the moment) by `create-react-app` tool.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+It use [Bulma](https://bulma.io/) as a UI framework. There were another frameworks in consideration like [Material UI](https://material-ui.com/)  or [Semantic UI](https://semantic-ui.com/), but Bulma was the chosen because the easy to work with it.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Dependencies
 
-### `yarn test`
+The project has the following dependencies:
+* Bulma
+* Styled Components, to stylize some componets easily
+* Axios as a HTTP client
+* Redux, to use a global storage for the app state
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm i --save bulma bulma-extensions node-sass
+npm i --save styled-components
+npm i --save axios
+npm i --save redux react-redux redux-thunk
+```
+### Testing
+Used Jest, React test renderer and Enzyme to testing. Created snapshots and unit tests.
+```
+npm i --save react-test-renderer
+npm i --save enzyme enzyme-adapter-react-16
+npm i --save redux-mock-store
+```
 
-### `yarn build`
+## Global state
+Due to the manage of favorites (used in several components and pages), a global state to save the favorite items was created. It is used in several points of the application to retrieve, add or remove favorites.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Storage
+For the storage of the favorite items the app use the `localStorage` for the browser. This way was chosen because only a small amount of information was to be stored. If the information increase, a good approach could be the use os SQLite or PostgreSQL maybe.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Installation
+To prepare the app execute `yarn install`. It will install the required dependencies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Launch the app
 
-### `yarn eject`
+To launch the app, execute `yarn start`.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Testing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For testing, execute `yarn test`. You can see the test coverage report using `npm test -- --coverage`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Deploy
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To deploy to a production environment, you can create a bundle using `npm run build`.
 
-## Learn More
+## Future improvements
+There are a lot of things to improve, but this is a side project to practice and learn about React and testing at all. Some things to improve are:
+* Increase the test coverage: I know that the current test battery are very poor. The idea is to learn more and more about front testing (in React or in another framework) and going to add new tests and new ways of testing. I am very noob in this :P
+* Add i18n (it was not the purpose of this app)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

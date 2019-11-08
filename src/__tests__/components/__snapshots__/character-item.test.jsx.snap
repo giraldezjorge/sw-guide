@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character item renders correctly 1`] = `
+<div
+  className="sc-bdVaJa fVCJpx card character-item"
+  onClick={[Function]}
+>
+  <div
+    className="card-content"
+  >
+    <div
+      className="media"
+    >
+      <div
+        className="media-left"
+      >
+        <figure
+          className="image is-24x24"
+        >
+          <img
+            alt="Character"
+            src="character-icon.png"
+          />
+        </figure>
+      </div>
+      <div
+        className="media-content"
+      >
+        <p
+          className="title is-6"
+        >
+          Luke Skywalker
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

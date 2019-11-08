@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Film thumb renders correctly 1`] = `
+<div
+  className="sc-bdVaJa fVCJpx card"
+  onClick={[Function]}
+>
+  <div
+    className="card-image"
+  >
+    <figure
+      className="image is-4by3"
+    >
+      <img
+        alt="Thumbnail"
+        src="sw_5.jpg"
+      />
+    </figure>
+  </div>
+  <div
+    className="card-content"
+  >
+    <div
+      className="media"
+    >
+      <div
+        className="media-content"
+      >
+        <p
+          className="subtitle is-6"
+        >
+          Episode#4
+        </p>
+        <p
+          className="title is-4"
+        >
+          A New Hope
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

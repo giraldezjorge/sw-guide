@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page renders correctly 1`] = `
+Array [
+  <section
+    className="sc-bwzfXH bQCLYR hero is-link is-fullheight-with-navbar home"
+  >
+    <div
+      className="hero-body is-relative"
+    >
+      <div
+        className="container"
+      >
+        <figure
+          className="image"
+        >
+          <img
+            className="sc-htpNat dkKRLW"
+            src="logo.png"
+          />
+        </figure>
+        <p
+          className="title has-text-centered"
+        >
+          The ultimate guide
+        </p>
+      </div>
+    </div>
+  </section>,
+  <section
+    className="section"
+  >
+    <progress
+      className="progress is-medium is-dark"
+      max="100"
+    />
+  </section>,
+]
+`;

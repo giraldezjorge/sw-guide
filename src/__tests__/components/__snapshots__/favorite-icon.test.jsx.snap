@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The favorite icon shows the add favorite icon if item is not a favorite 1`] = `
+<a
+  className="button is-small is-danger is-outlined"
+  onClick={[Function]}
+  role="button"
+  title="Add to favorites"
+>
+  <span
+    className="icon is-small"
+  >
+    <i
+      className="fas fa-heart"
+    />
+  </span>
+</a>
+`;
+
+exports[`The favorite icon shows the remove favorite icon if item is a favorite 1`] = `
+<a
+  className="button is-small is-danger "
+  onClick={[Function]}
+  role="button"
+  title="Remove from favorites"
+>
+  <span
+    className="icon is-small"
+  >
+    <i
+      className="fas fa-heart"
+    />
+  </span>
+</a>
+`;
