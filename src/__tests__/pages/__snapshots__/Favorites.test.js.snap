@@ -46,15 +46,16 @@ exports[`Favorites page shows empty favorite lists 1`] = `
         </p>
         <div
           className="columns is-multiline"
-        />
-        <div
-          className="column"
         >
-          <p
-            className="empty-msg"
+          <div
+            className="column"
           >
-            There are no favorite characters
-          </p>
+            <p
+              className="empty-msg"
+            >
+              There are no favorite characters
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -446,15 +447,16 @@ exports[`Favorites page shows film favorite list and empty character list 1`] = 
         </p>
         <div
           className="columns is-multiline"
-        />
-        <div
-          className="column"
         >
-          <p
-            className="empty-msg"
+          <div
+            className="column"
           >
-            There are no favorite characters
-          </p>
+            <p
+              className="empty-msg"
+            >
+              There are no favorite characters
+            </p>
+          </div>
         </div>
       </div>
     </div>
