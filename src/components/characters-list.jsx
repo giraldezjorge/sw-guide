@@ -7,13 +7,13 @@ const CharactersList = (props) => {
   return <div className="container">
     <p className="title is-3">{title}</p>
     <div className="columns is-multiline">
-    {characters.map((character, index) => {
-      return <div key={index} className="character column is-half">
-        <CharacterItem character={character} />
-      </div>
-    })}
+      {characters.map((character, index) => {
+        return <div key={index} className="character column is-half">
+          <CharacterItem character={character} />
+        </div>
+      })}
+      {characters.length === 0 && <div className="column"><p className="empty-msg">{emptyMsg}</p></div>}
     </div>
-    {characters.length === 0 && <div className="column"><p className="empty-msg">{emptyMsg}</p></div>}
   </div>
 }
 
