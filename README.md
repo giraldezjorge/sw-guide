@@ -54,6 +54,10 @@ For testing, execute `yarn test`. You can see the test coverage report using `np
 
 To deploy to a production environment, you can create a bundle using `npm run build`.
 
+## CI
+
+The project is configured to use the GitHub Actions service.
+
 ## Future improvements
 There are a lot of things to improve, but this is a side project to practice and learn about React and testing at all. Some things to improve are:
 * Increase the test coverage: I know that the current test battery are very poor. The idea is to learn more and more about front testing (in React or in another framework) and going to add new tests and new ways of testing. I am very noob in this :P
