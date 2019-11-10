@@ -1,4 +1,6 @@
 # SW-GUIDE
+![](https://github.com/giraldezjorge/sw-guide/workflows/build/badge.svg?branch=master)
+
 The ultimate Star Wars guide :D
 
 ## Introduction
