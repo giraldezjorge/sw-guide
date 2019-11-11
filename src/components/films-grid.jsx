@@ -3,12 +3,13 @@ import PropTypes from 'prop-types'
 import FilmThumb from './film-thumb'
 
 const FilmsGrid = (props) => {
-  const { films, title, emptyMsg } = props
+  const { films, title, emptyMsg, twoColumns } = props
+  const filmColumnSizeClss = twoColumns ? 'is-half' : 'is-one-quarter'
   return <div className="container">
     {title && <p className="title is-3">{title}</p>}
     <div className="columns is-multiline">
       {films.map((film, index) => {
-        return <div key={index} className="film column is-one-quarter">
+        return <div key={index} className={`film column ${filmColumnSizeClss}`}>
           <FilmThumb film={film} />
         </div>
       })}
@@ -19,13 +20,15 @@ const FilmsGrid = (props) => {
 
 FilmsGrid.defaultProps = {
   films: [],
-  emptyMsg: 'Ups, these are not the films you are looking for!'
+  emptyMsg: 'Ups, these are not the films you are looking for!',
+  twoColumns: false
 }
 
 FilmsGrid.propTypes = {
   films: PropTypes.array,
   title: PropTypes.string,
-  emptyMsg: PropTypes.string
+  emptyMsg: PropTypes.string,
+  twoColumns: PropTypes.bool
 }
 
 export default FilmsGrid

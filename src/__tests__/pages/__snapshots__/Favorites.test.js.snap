@@ -5,56 +5,60 @@ exports[`Favorites page shows empty favorite lists 1`] = `
   className="section"
 >
   <div
-    className="columns is-variable is-5"
+    className="container"
   >
     <div
-      className="column"
+      className="columns is-variable is-5"
     >
       <div
-        className="container"
+        className="column"
       >
-        <p
-          className="title is-3"
-        >
-          Favorite films
-        </p>
         <div
-          className="columns is-multiline"
+          className="container"
         >
-          <div
-            className="column"
+          <p
+            className="title is-3"
           >
-            <p
-              className="empty-msg"
+            Favorite films
+          </p>
+          <div
+            className="columns is-multiline"
+          >
+            <div
+              className="column"
             >
-              There are no favorite films
-            </p>
+              <p
+                className="empty-msg"
+              >
+                There are no favorite films
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div
-      className="column"
-    >
       <div
-        className="container"
+        className="column"
       >
-        <p
-          className="title is-3"
-        >
-          Favorite characters
-        </p>
         <div
-          className="columns is-multiline"
+          className="container"
         >
-          <div
-            className="column"
+          <p
+            className="title is-3"
           >
-            <p
-              className="empty-msg"
+            Favorite characters
+          </p>
+          <div
+            className="columns is-multiline"
+          >
+            <div
+              className="column"
             >
-              There are no favorite characters
-            </p>
+              <p
+                className="empty-msg"
+              >
+                There are no favorite characters
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -68,81 +72,85 @@ exports[`Favorites page shows empty film favorite list and character list 1`] = 
   className="section"
 >
   <div
-    className="columns is-variable is-5"
+    className="container"
   >
     <div
-      className="column"
+      className="columns is-variable is-5"
     >
       <div
-        className="container"
+        className="column"
       >
-        <p
-          className="title is-3"
-        >
-          Favorite films
-        </p>
         <div
-          className="columns is-multiline"
+          className="container"
         >
-          <div
-            className="column"
+          <p
+            className="title is-3"
           >
-            <p
-              className="empty-msg"
+            Favorite films
+          </p>
+          <div
+            className="columns is-multiline"
+          >
+            <div
+              className="column"
             >
-              There are no favorite films
-            </p>
+              <p
+                className="empty-msg"
+              >
+                There are no favorite films
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div
-      className="column"
-    >
       <div
-        className="container"
+        className="column"
       >
-        <p
-          className="title is-3"
-        >
-          Favorite characters
-        </p>
         <div
-          className="columns is-multiline"
+          className="container"
         >
+          <p
+            className="title is-3"
+          >
+            Favorite characters
+          </p>
           <div
-            className="character column is-half"
+            className="columns is-multiline"
           >
             <div
-              className="sc-bwzfXH kZUMPF card character-item"
-              onClick={[Function]}
+              className="character column is-half"
             >
               <div
-                className="card-content"
+                className="sc-bwzfXH kZUMPF card character-item"
+                onClick={[Function]}
               >
                 <div
-                  className="media"
+                  className="card-content"
                 >
                   <div
-                    className="media-left"
+                    className="media"
                   >
-                    <figure
-                      className="image is-24x24"
+                    <div
+                      className="media-left"
                     >
-                      <img
-                        alt="Character"
-                        src="character-icon.png"
-                      />
-                    </figure>
-                  </div>
-                  <div
-                    className="media-content"
-                  >
-                    <p
-                      className="title is-6"
+                      <figure
+                        className="image is-24x24"
+                      >
+                        <img
+                          alt="Character"
+                          src="character-icon.png"
+                        />
+                      </figure>
+                    </div>
+                    <div
+                      className="media-content"
                     >
-                      Luke Skywalker
-                    </p>
+                      <p
+                        className="title is-6"
+                      >
+                        Luke Skywalker
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -160,103 +168,107 @@ exports[`Favorites page shows film favorite list and character list 1`] = `
   className="section"
 >
   <div
-    className="columns is-variable is-5"
+    className="container"
   >
     <div
-      className="column"
+      className="columns is-variable is-5"
     >
       <div
-        className="container"
+        className="column"
       >
-        <p
-          className="title is-3"
-        >
-          Favorite films
-        </p>
         <div
-          className="columns is-multiline"
+          className="container"
         >
+          <p
+            className="title is-3"
+          >
+            Favorite films
+          </p>
           <div
-            className="film column is-one-quarter"
+            className="columns is-multiline"
           >
             <div
-              className="sc-bdVaJa fVCJpx card"
-              onClick={[Function]}
+              className="film column is-half"
             >
               <div
-                className="card-image"
-              >
-                <figure
-                  className="image is-4by3"
-                >
-                  <img
-                    alt="Thumbnail"
-                    src="sw_5.jpg"
-                  />
-                </figure>
-              </div>
-              <div
-                className="card-content"
+                className="sc-bdVaJa fVCJpx card"
+                onClick={[Function]}
               >
                 <div
-                  className="media"
+                  className="card-image"
+                >
+                  <figure
+                    className="image is-4by3"
+                  >
+                    <img
+                      alt="Thumbnail"
+                      src="sw_5.jpg"
+                    />
+                  </figure>
+                </div>
+                <div
+                  className="card-content"
                 >
                   <div
-                    className="media-content"
+                    className="media"
                   >
-                    <p
-                      className="subtitle is-6"
+                    <div
+                      className="media-content"
                     >
-                      Episode#4
-                    </p>
-                    <p
-                      className="title is-4"
-                    >
-                      A New Hope
-                    </p>
+                      <p
+                        className="subtitle is-6"
+                      >
+                        Episode#4
+                      </p>
+                      <p
+                        className="title is-4"
+                      >
+                        A New Hope
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            className="film column is-one-quarter"
-          >
             <div
-              className="sc-bdVaJa fVCJpx card"
-              onClick={[Function]}
+              className="film column is-half"
             >
               <div
-                className="card-image"
-              >
-                <figure
-                  className="image is-4by3"
-                >
-                  <img
-                    alt="Thumbnail"
-                    src="sw_6.jpg"
-                  />
-                </figure>
-              </div>
-              <div
-                className="card-content"
+                className="sc-bdVaJa fVCJpx card"
+                onClick={[Function]}
               >
                 <div
-                  className="media"
+                  className="card-image"
+                >
+                  <figure
+                    className="image is-4by3"
+                  >
+                    <img
+                      alt="Thumbnail"
+                      src="sw_6.jpg"
+                    />
+                  </figure>
+                </div>
+                <div
+                  className="card-content"
                 >
                   <div
-                    className="media-content"
+                    className="media"
                   >
-                    <p
-                      className="subtitle is-6"
+                    <div
+                      className="media-content"
                     >
-                      Episode#5
-                    </p>
-                    <p
-                      className="title is-4"
-                    >
-                      The Empire Strikes Back
-                    </p>
+                      <p
+                        className="subtitle is-6"
+                      >
+                        Episode#5
+                      </p>
+                      <p
+                        className="title is-4"
+                      >
+                        The Empire Strikes Back
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -264,54 +276,54 @@ exports[`Favorites page shows film favorite list and character list 1`] = `
           </div>
         </div>
       </div>
-    </div>
-    <div
-      className="column"
-    >
       <div
-        className="container"
+        className="column"
       >
-        <p
-          className="title is-3"
-        >
-          Favorite characters
-        </p>
         <div
-          className="columns is-multiline"
+          className="container"
         >
+          <p
+            className="title is-3"
+          >
+            Favorite characters
+          </p>
           <div
-            className="character column is-half"
+            className="columns is-multiline"
           >
             <div
-              className="sc-bwzfXH kZUMPF card character-item"
-              onClick={[Function]}
+              className="character column is-half"
             >
               <div
-                className="card-content"
+                className="sc-bwzfXH kZUMPF card character-item"
+                onClick={[Function]}
               >
                 <div
-                  className="media"
+                  className="card-content"
                 >
                   <div
-                    className="media-left"
+                    className="media"
                   >
-                    <figure
-                      className="image is-24x24"
+                    <div
+                      className="media-left"
                     >
-                      <img
-                        alt="Character"
-                        src="character-icon.png"
-                      />
-                    </figure>
-                  </div>
-                  <div
-                    className="media-content"
-                  >
-                    <p
-                      className="title is-6"
+                      <figure
+                        className="image is-24x24"
+                      >
+                        <img
+                          alt="Character"
+                          src="character-icon.png"
+                        />
+                      </figure>
+                    </div>
+                    <div
+                      className="media-content"
                     >
-                      Luke Skywalker
-                    </p>
+                      <p
+                        className="title is-6"
+                      >
+                        Luke Skywalker
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -329,103 +341,107 @@ exports[`Favorites page shows film favorite list and empty character list 1`] = 
   className="section"
 >
   <div
-    className="columns is-variable is-5"
+    className="container"
   >
     <div
-      className="column"
+      className="columns is-variable is-5"
     >
       <div
-        className="container"
+        className="column"
       >
-        <p
-          className="title is-3"
-        >
-          Favorite films
-        </p>
         <div
-          className="columns is-multiline"
+          className="container"
         >
+          <p
+            className="title is-3"
+          >
+            Favorite films
+          </p>
           <div
-            className="film column is-one-quarter"
+            className="columns is-multiline"
           >
             <div
-              className="sc-bdVaJa fVCJpx card"
-              onClick={[Function]}
+              className="film column is-half"
             >
               <div
-                className="card-image"
-              >
-                <figure
-                  className="image is-4by3"
-                >
-                  <img
-                    alt="Thumbnail"
-                    src="sw_5.jpg"
-                  />
-                </figure>
-              </div>
-              <div
-                className="card-content"
+                className="sc-bdVaJa fVCJpx card"
+                onClick={[Function]}
               >
                 <div
-                  className="media"
+                  className="card-image"
+                >
+                  <figure
+                    className="image is-4by3"
+                  >
+                    <img
+                      alt="Thumbnail"
+                      src="sw_5.jpg"
+                    />
+                  </figure>
+                </div>
+                <div
+                  className="card-content"
                 >
                   <div
-                    className="media-content"
+                    className="media"
                   >
-                    <p
-                      className="subtitle is-6"
+                    <div
+                      className="media-content"
                     >
-                      Episode#4
-                    </p>
-                    <p
-                      className="title is-4"
-                    >
-                      A New Hope
-                    </p>
+                      <p
+                        className="subtitle is-6"
+                      >
+                        Episode#4
+                      </p>
+                      <p
+                        className="title is-4"
+                      >
+                        A New Hope
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div
-            className="film column is-one-quarter"
-          >
             <div
-              className="sc-bdVaJa fVCJpx card"
-              onClick={[Function]}
+              className="film column is-half"
             >
               <div
-                className="card-image"
-              >
-                <figure
-                  className="image is-4by3"
-                >
-                  <img
-                    alt="Thumbnail"
-                    src="sw_6.jpg"
-                  />
-                </figure>
-              </div>
-              <div
-                className="card-content"
+                className="sc-bdVaJa fVCJpx card"
+                onClick={[Function]}
               >
                 <div
-                  className="media"
+                  className="card-image"
+                >
+                  <figure
+                    className="image is-4by3"
+                  >
+                    <img
+                      alt="Thumbnail"
+                      src="sw_6.jpg"
+                    />
+                  </figure>
+                </div>
+                <div
+                  className="card-content"
                 >
                   <div
-                    className="media-content"
+                    className="media"
                   >
-                    <p
-                      className="subtitle is-6"
+                    <div
+                      className="media-content"
                     >
-                      Episode#5
-                    </p>
-                    <p
-                      className="title is-4"
-                    >
-                      The Empire Strikes Back
-                    </p>
+                      <p
+                        className="subtitle is-6"
+                      >
+                        Episode#5
+                      </p>
+                      <p
+                        className="title is-4"
+                      >
+                        The Empire Strikes Back
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -433,29 +449,29 @@ exports[`Favorites page shows film favorite list and empty character list 1`] = 
           </div>
         </div>
       </div>
-    </div>
-    <div
-      className="column"
-    >
       <div
-        className="container"
+        className="column"
       >
-        <p
-          className="title is-3"
-        >
-          Favorite characters
-        </p>
         <div
-          className="columns is-multiline"
+          className="container"
         >
-          <div
-            className="column"
+          <p
+            className="title is-3"
           >
-            <p
-              className="empty-msg"
+            Favorite characters
+          </p>
+          <div
+            className="columns is-multiline"
+          >
+            <div
+              className="column"
             >
-              There are no favorite characters
-            </p>
+              <p
+                className="empty-msg"
+              >
+                There are no favorite characters
+              </p>
+            </div>
           </div>
         </div>
       </div>

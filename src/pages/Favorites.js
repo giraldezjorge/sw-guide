@@ -13,12 +13,14 @@ class Favorites extends React.Component {
     const { films, characters } = this.props
     return (
       <section className="section">
-        <div className="columns is-variable is-5">
-          <div className="column">
-            <FilmsGrid films={films} title={'Favorite films'} emptyMsg={'There are no favorite films'} />
-          </div>
-          <div className="column">
-            <CharactersGrid characters={characters} title={'Favorite characters'} emptyMsg={'There are no favorite characters'} />
+        <div className="container">
+          <div className="columns is-variable is-5">
+            <div className="column">
+              <FilmsGrid films={films} title={'Favorite films'} emptyMsg={'There are no favorite films'} twoColumns />
+            </div>
+            <div className="column">
+              <CharactersGrid characters={characters} title={'Favorite characters'} emptyMsg={'There are no favorite characters'} />
+            </div>
           </div>
         </div>
       </section>
