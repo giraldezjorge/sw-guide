@@ -2,7 +2,7 @@ import mockAxios from 'axios'
 import { theForce } from '../../lib/index'
 import { mockFilms, mockFilm, mockCharacter } from '../../__mocks__/data-mock'
 
-const API_BASE_URL = 'https://swapi.co/api/'
+const API_BASE_URL = 'https://swapi.dev/api/'
 
 describe('TheForce', () => {
   afterEach(() => {

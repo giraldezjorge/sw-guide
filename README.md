@@ -5,7 +5,7 @@ The ultimate Star Wars guide :D
 
 ## Introduction
 
-This project is a React application that use the [SWAPI](https://swapi.co/) API as a info provider. It is a motivation to practice creating a React app with a small test battery.
+This project is a React application that use the [SWAPI](https://swapi.dev/) API as a info provider. It is a motivation to practice creating a React app with a small test battery.
 
 The project was created using the last React version (16.11.0 at the moment) by `create-react-app` tool.
 
