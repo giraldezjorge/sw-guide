@@ -1,4 +1,4 @@
 
-export const API_URL = 'https://swapi.co/api/'
+export const API_URL = 'https://swapi.dev/api/'
 
 export { API_URL as default }
